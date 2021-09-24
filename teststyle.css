@@ -1,0 +1,29 @@
+body {
+    background-color: lightgrey;
+    font-size: 20px;
+    text-align: center;
+}
+
+.album {
+    display: inline-flex;
+    background-color:  red;
+}
+
+figure {
+    background-color: blue;
+}
+
+figure p {
+    box-sizing: content-box;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-style: oblique;
+    text-align: left;
+    height:auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+ #gauche {
+     background-color: chartreuse;
+ }
