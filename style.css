@@ -71,10 +71,12 @@ p {
 
 .marge {
     margin: 70px 2px 70px 2px;
+    font-size: .8em;
 }
 
 .marge_2 {
     margin: 20px;
+    
 }
 
 footer  {
