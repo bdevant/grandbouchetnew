@@ -9,6 +9,10 @@ header a {
     float: right;
 }
 
+header a img {
+    width: 50px;
+}
+
 main {
     display: flex;
     width: 100%;
