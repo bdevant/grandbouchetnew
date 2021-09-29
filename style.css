@@ -12,7 +12,15 @@ header a {
 header a img {
     width: 50px;
     margin-right: 130px;
+    
+}
 
+header div {
+    float: left;
+    width: 50px;
+    height: 40px;
+    background-color:#c0c0c0;
+    margin-left: 130px;
 }
 
 main {
