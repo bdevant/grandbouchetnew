@@ -1,0 +1,162 @@
+* {
+    background-color:#d0d0d0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1,2em;
+}
+
+.conteneur-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.conteneur-grid > div{
+    padding: 3px;
+    
+    
+}
+
+.imgr {
+    width: 30px;
+}
+/*
+main {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    width: 20%;
+}
+
+main div {
+    width: 80%;
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+}
+
+
+aside {
+    width: 20%;
+}
+
+figure {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p {
+    margin-top:1rem;
+}
+
+.button {
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: .5em;
+    color: darkslateblue;
+    background-color:#e0e0e0;    
+}
+
+.button2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: .3em;
+    color: darkslateblue;
+    background-color:#e0e0e0;    
+}
+
+
+.marge {
+    margin: 70px 2px 70px 2px;
+    font-size: .8em;
+}
+
+.marge_2 {
+    margin: 20px;
+    
+}
+
+footer  {
+    float: center;
+    font-family: Arial ;
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.pasto {
+    margin-top: 60px;
+    font-size: 1.2em;
+}
+
+.imgi {
+    width: 500px;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+
+
+<!--DIAPORAMA-->
+.d1{
+    width: 576px;
+    height: 300px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 30s ease-in-out infinite both;
+}
+
+.conteneur{
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+.d2{
+    width:100%;
+    height: 0px;
+    padding-top: 75% ;
+    box-shadow: 0px 0px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 30s ease-in-out infinite both;
+}
+
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fondu{
+    0%{background-image: url("Images/p8.jpeg");}
+    12.5%{background-image: url("Images/p1.jpeg");}
+    25%{background-image: url("Images/p2.jpeg");}
+    37.5%{background-image: url("Images/p3.jpeg");}
+    50%{background-image: url("Images/p4.jpeg");}
+    62.5%{background-image: url("Images/p5.jpeg");}
+    75%{background-image: url("Images/p6.jpeg");}
+    87.5%{background-image: url("Images/p7.jpeg");}
+    100%{background-image: url("Images/p8.jpeg");}
+
+}
+*/
