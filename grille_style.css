@@ -7,20 +7,163 @@
     font-size: 1,2em;
 }
 
-.conteneur-grid{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+.button {
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: .5em;
+    color: darkslateblue;
+    background-color:#e0e0e0; 
+       
 }
 
-.conteneur-grid > div{
-    padding: 3px;
+.box0 {
+    height: 20px;     
+}
+
+.box1{
+    height: 120px;
+}
+
+.corp1{
+    font-size: 1.6em;
+}
+
+.fig1, .fig2{
+   //width: 600px;
+    width: 28%;
+    background-color:#b0b0b0;
+}
+
+.unes{
+    width: 10%;
+    padding-top: 50px;
+    //background-color:#b0b0b0;
+}
+
+.cont2, .cont3, .cont4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+
+
+
+.menu{
+    
+    //background-color:#c0c0c0;
+    width: 10%;
+
+}
+
+
+
+.fig1 img, .fig2 img{
+  
+   width: 550px;
+}
+
+.fb{
+    width: 10%;
+    //background-color:#c0c0c0;
+    padding-top: 50px;
+    
+
+}
+
+.fb img{
+    width: 50px;
+    //background-color: #b0b0b0;
+    
+}
+
+.fbt{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-left: 30px;
+   
+}
+
+.gg{
+    width: 10%;
+    //background-color: #b0b0b0;
+    padding-top: 10px;
     
     
 }
 
-.imgr {
-    width: 30px;
+.ggt{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    //background-color: #b0b0b0;
 }
+
+.carte{
+    
+    //background-color: #b0b0b0;
+    width: 67%;  
+}
+
+.carte img{
+    //width: 300px;
+}
+
+
+
+.drapeau {
+    grid-column: 3;
+    grid-row: 1/4;
+}
+
+.unesco{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+ 
+}
+
+.vallee{
+   
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 65%;
+}
+
+.imgr{
+    width: 50px;
+}
+
+ol{
+    color: blue;
+    line-height: 1.3;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    list-style: none;
+    //background-color:#b0b0b0;
+}
+
+li a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 /*
 main {
     display: flex;
